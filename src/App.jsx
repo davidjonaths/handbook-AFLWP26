@@ -49,7 +49,7 @@ function App() {
       <header className="topbar">
         <button className="brand" onClick={restart} aria-label="Back to start">
           <span className="brand-mark"><Globe2 size={22} strokeWidth={2.5} /></span>
-          <span>AIESEC <strong>IMPACT</strong></span>
+          <span>AIESEC <strong>in USU</strong></span>
         </button>
         <div className="topbar-meta">
           <span className="question-count">{String(questionIndex + 1).padStart(2, '0')} <small>/ 20</small></span>
@@ -119,7 +119,7 @@ function App() {
 function Welcome({ onStart }) {
   return (
     <main className="welcome-page">
-      <nav className="welcome-nav"><div className="brand"><span className="brand-mark"><Globe2 size={22} strokeWidth={2.5} /></span><span>AIESEC <strong>IMPACT</strong></span></div><span className="nav-chip">GLOBAL VOLUNTEER / 2026</span></nav>
+      <nav className="welcome-nav"><div className="brand"><span className="brand-mark"><Globe2 size={22} strokeWidth={2.5} /></span><span>AIESEC <strong>in USU</strong></span></div><span className="nav-chip">AIESEC Future Leaders / 2026</span></nav>
       <section className="welcome-hero">
         <div className="hero-copy animate-in">
           <p className="eyebrow"><span className="eyebrow-dot" /> A world of questions awaits</p>
@@ -145,7 +145,7 @@ function Results({ score, onRestart }) {
   const message = percentage >= 80 ? 'You see the bigger picture.' : percentage >= 50 ? 'Your curiosity is already moving.' : 'Every journey starts with one question.'
   return (
     <main className="results-page">
-      <nav className="welcome-nav"><div className="brand"><span className="brand-mark"><Globe2 size={22} strokeWidth={2.5} /></span><span>AIESEC <strong>IMPACT</strong></span></div><button className="restart-link" onClick={onRestart}><RotateCcw size={16} /> Play again</button></nav>
+      <nav className="welcome-nav"><div className="brand"><span className="brand-mark"><Globe2 size={22} strokeWidth={2.5} /></span><span>AIESEC <strong>in USU</strong></span></div><button className="restart-link" onClick={onRestart}><RotateCcw size={16} /> Play again</button></nav>
       <section className="results-content animate-in">
         <div className="result-kicker"><Trophy size={18} /> Your journey so far</div>
         <div className="score-ring"><div><strong>{score}</strong><span>out of 20</span></div></div>
