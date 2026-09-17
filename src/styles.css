@@ -34,6 +34,7 @@ h1 em { font-style: normal; font-weight: 300; }
 .orbit-two { height: 68%; transform: translate(-50%,-50%) rotate(55deg); width: 90%; }
 .sun-card { align-items: center; background: var(--ink); border-radius: 50%; color: var(--yellow); display: flex; flex-direction: column; height: min(31vw, 390px); justify-content: space-between; left: 50%; padding: 34px; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(8deg); width: min(31vw, 390px); }
 .sun-card svg { color: var(--orange); }
+.hero-logo { background: rgba(255,255,255,.9); border: 3px solid rgba(255,255,255,.2); border-radius: 50%; box-shadow: 0 14px 30px rgba(23,37,31,.18); object-fit: contain; height: min(15vw, 190px); width: min(15vw, 190px); }
 .sun-card-top, .sun-card-bottom { font-family: 'Space Grotesk', sans-serif; font-size: 10px; letter-spacing: .13em; line-height: 1.4; text-align: center; }
 .sun-card-bottom { align-self: flex-start; color: #c5d4c1; text-align: left; }
 .floating-note { background: #f6f5ef; box-shadow: 8px 9px 0 rgba(23,37,31,.18); color: var(--ink); font-family: 'Space Grotesk', sans-serif; font-size: 10px; letter-spacing: .1em; line-height: 1.25; padding: 15px 18px; position: absolute; }

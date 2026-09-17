@@ -131,7 +131,11 @@ function Welcome({ onStart }) {
         </div>
         <div className="hero-art animate-in-delay">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
-          <div className="sun-card"><span className="sun-card-top">AIESEC / 1948</span><Globe2 size={150} strokeWidth={0.7} /><span className="sun-card-bottom">CONNECTING<br />THE WORLD</span></div>
+          <div className="sun-card">
+            <span className="sun-card-top">AIESEC / 1948</span>
+            <img src={logo} alt="Euphorewa logo" className="hero-logo" />
+            <span className="sun-card-bottom">CONNECTING<br />THE WORLD</span>
+          </div>
           <div className="floating-note note-top">CURIOUS<br /><strong>MINDS</strong></div>
           <div className="floating-note note-bottom"><span>01</span> Be open to<br />a new perspective.</div>
         </div>
