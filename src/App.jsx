@@ -111,7 +111,7 @@ function App() {
           </div>
         </div>
       </section>
-      <footer className="quiz-footer"><span>GLOBAL VOLUNTEER / 2026</span><span>Powered by young people who care.</span></footer>
+      <footer className="quiz-footer"><span>AIESEC Future Leaders Winter Peak / 2026</span><span>Powered by young people who care.</span></footer>
     </main>
   )
 }
