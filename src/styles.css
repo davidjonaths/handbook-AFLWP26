@@ -12,6 +12,7 @@ button:focus-visible { outline: 3px solid #17251f; outline-offset: 3px; }
 .welcome-nav, .topbar { align-items: center; display: flex; justify-content: space-between; position: relative; z-index: 2; }
 .brand { align-items: center; color: var(--ink); display: inline-flex; gap: 10px; border: 0; background: transparent; font-weight: 900; letter-spacing: .03em; padding: 0; }
 .brand strong { font-weight: 400; }
+.brand-logo { align-items: center; background: rgba(255,255,255,.72); border: 2px solid rgba(23,37,31,.12); border-radius: 14px; box-shadow: 0 8px 18px rgba(23,37,31,.08); display: inline-flex; height: 44px; justify-content: center; object-fit: contain; width: 44px; }
 .brand-mark { align-items: center; background: var(--ink); border-radius: 50%; color: var(--yellow); display: inline-flex; height: 36px; justify-content: center; width: 36px; }
 .nav-chip, .question-count, .score-pill { font-family: 'Space Grotesk', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: .12em; }
 .nav-chip { border: 1px solid rgba(23,37,31,.38); border-radius: 99px; padding: 10px 16px; }
