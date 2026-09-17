@@ -1,0 +1,115 @@
+export const questions = [
+  {
+    session: 'Session 01 / Social impact',
+    tag: 'SDGs',
+    title: 'Look at these volunteers teaching kids in a classroom. Which SDG number is this?',
+    options: ['SDG 1 (No Poverty)', 'SDG 4 (Quality Education)', 'SDG 8 (Decent Work and Economic Growth)', 'SDG 16 (Peace, Justice and Strong Institutions)'],
+    answer: 1,
+    fact: 'Quality Education is one of the most popular Global Volunteer projects. You can go abroad to teach and inspire children for a better future.',
+    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1400&q=85',
+    location: 'Global classrooms',
+  },
+  {
+    session: 'Session 01 / Social impact', tag: 'SDGs',
+    title: 'These volunteers are planting trees to save the earth. Which SDG number is this?',
+    options: ['SDG 7 (Affordable and Clean Energy)', 'SDG 9 (Industry, Innovation and Infrastructure)', 'SDG 13 (Climate Action)', 'SDG 14 (Life Below Water)'], answer: 2,
+    fact: 'We only have one planet. AIESEC has many projects focused on environment and climate change to protect our earth.',
+    image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1400&q=85', location: 'Climate action',
+  },
+  {
+    session: 'Session 01 / Social impact', tag: 'SDGs',
+    title: 'This diver is cleaning plastic from the coral reef. Which SDG aims to protect the ocean?',
+    options: ['SDG 6 (Clean Water and Sanitation)', 'SDG 11 (Sustainable Cities and Communities)', 'SDG 14 (Life Below Water)', 'SDG 15 (Life on Land)'], answer: 2,
+    fact: 'If you love the beach, you can join a Global Volunteer project to protect sea turtles and ocean ecosystems.',
+    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1400&q=85', location: 'Life below water',
+  },
+  {
+    session: 'Session 01 / Social impact', tag: 'SDGs',
+    title: 'This picture shows confident women standing together for equal rights. Which SDG is this?',
+    options: ['SDG 3 (Good Health and Well-being)', 'SDG 5 (Gender Equality)', 'SDG 10 (Reduced Inequalities)', 'SDG 16 (Peace, Justice and Strong Institutions)'], answer: 1,
+    fact: 'AIESEC believes in equal leadership opportunities for everyone, no matter their gender.',
+    image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=85', location: 'Equal together',
+  },
+  {
+    session: 'Session 01 / Social impact', tag: 'SDGs',
+    title: 'Young people from different countries are working together to achieve world goals. Which SDG is this?',
+    options: ['SDG 4 (Quality Education)', 'SDG 12 (Responsible Consumption and Production)', 'SDG 16 (Peace, Justice and Strong Institutions)', 'SDG 17 (Partnerships for the Goals)'], answer: 3,
+    fact: 'This is what AIESEC is all about: connecting young leaders globally to make a real impact together.',
+    image: 'https://images.unsplash.com/photo-1529156349890-7a9d3d5f6c94?auto=format&fit=crop&w=1400&q=85', location: 'Global partnerships',
+  },
+  {
+    session: 'Session 02 / Global awareness', tag: 'Countries',
+    title: 'This famous white building is very popular. Which country is this?', options: ['India', 'Turkiye', 'Egypt', 'Thailand'], answer: 0,
+    fact: 'India is a huge destination for Global Volunteer. Many delegates go there to teach, learn new cultures, and eat amazing food.', image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1400&q=85', location: 'Agra, India',
+  },
+  {
+    session: 'Session 02 / Global awareness', tag: 'Countries',
+    title: 'You can see beautiful cherry blossoms near this famous mountain. Which country is this?', options: ['South Korea', 'Japan', 'China', 'Vietnam'], answer: 1,
+    fact: 'Going on exchange to Japan gives you a perfect mix of very traditional culture and super modern technology.', image: 'https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1400&q=85', location: 'Mount Fuji, Japan',
+  },
+  {
+    session: 'Session 02 / Global awareness', tag: 'Countries',
+    title: 'Look at these massive ancient pyramids in the desert. Which country is this?', options: ['Mexico', 'Peru', 'Egypt', 'Morocco'], answer: 2,
+    fact: 'Egypt has a very strong AIESEC community. Many youth go there for cultural exchange and community development.', image: 'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1400&q=85', location: 'Giza, Egypt',
+  },
+  {
+    session: 'Session 02 / Global awareness', tag: 'Countries',
+    title: 'Colorful hot air balloons fly over unique rocks here. Which country is this?', options: ['Brazil', 'Italy', 'Turkiye', 'Spain'], answer: 2,
+    fact: 'Turkiye is the place where Europe and Asia meet. It is a fantastic place for Global Volunteer projects.', image: 'https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=85', location: 'Cappadocia, Turkiye',
+  },
+  {
+    session: 'Session 02 / Global awareness', tag: 'Countries',
+    title: 'This beautiful temple is located by a big river in Southeast Asia. Which country is this?', options: ['Cambodia', 'Indonesia', 'Vietnam', 'Thailand'], answer: 3,
+    fact: "Known as the Land of Smiles, Thailand is one of the favorite destinations because the people are so friendly.", image: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1400&q=85', location: 'Wat Arun, Thailand',
+  },
+  {
+    session: 'Session 03 / Mix', tag: 'SDGs',
+    title: 'Volunteers are giving help to families in need. Which SDG wants to end poor living conditions?', options: ['SDG 1 (No Poverty)', 'SDG 2 (Zero Hunger)', 'SDG 8 (Decent Work and Economic Growth)', 'SDG 10 (Reduced Inequalities)'], answer: 0,
+    fact: 'Ending poverty is the first step to making the world a better place. You can take action through AIESEC!', image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1400&q=85', location: 'No poverty',
+  },
+  {
+    session: 'Session 03 / Mix', tag: 'SDGs',
+    title: 'These people are promoting a healthy lifestyle. Which SDG focuses on health?', options: ['SDG 3 (Good Health and Well-being)', 'SDG 4 (Quality Education)', 'SDG 6 (Clean Water and Sanitation)', 'SDG 11 (Sustainable Cities and Communities)'], answer: 0,
+    fact: 'Global Volunteer also has projects where you can educate communities about health, hygiene, and mental well-being.', image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1400&q=85', location: 'Good health',
+  },
+  {
+    session: 'Session 03 / Mix', tag: 'SDGs',
+    title: 'People are using eco-friendly transport in a big city. Which SDG is this?', options: ['SDG 7 (Affordable and Clean Energy)', 'SDG 9 (Industry, Innovation and Infrastructure)', 'SDG 11 (Sustainable Cities and Communities)', 'SDG 13 (Climate Action)'], answer: 2,
+    fact: 'Making our cities safe, clean, and green is very important for the future generation!', image: 'https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1400&q=85', location: 'Sustainable cities',
+  },
+  {
+    session: 'Session 03 / Mix', tag: 'Countries',
+    title: 'Look at these beautiful green islands in the sea. Which country is this?', options: ['Philippines', 'Thailand', 'Vietnam', 'Malaysia'], answer: 2,
+    fact: 'Vietnam is a very popular Global Volunteer destination in Asia, especially for teaching English.', image: 'https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1400&q=85', location: 'Ha Long Bay, Vietnam',
+  },
+  {
+    session: 'Session 03 / Mix', tag: 'Countries',
+    title: 'This tall iron tower is famous around the world. Which country is this?', options: ['Germany', 'Italy', 'United Kingdom', 'France'], answer: 3,
+    fact: 'Experiencing a completely different culture in Europe can help you develop a strong global mindset!', image: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=85', location: 'Paris, France',
+  },
+  {
+    session: 'Session 04 / Culture, food & landmarks', tag: 'Countries',
+    title: 'People love eating spicy Kimchi here and visiting beautiful places like Jeju Island or Gyeongbokgung Palace. Which country is this?', options: ['Japan', 'South Korea', 'China', 'Thailand'], answer: 1,
+    fact: 'South Korea is amazing for cultural exchange. Learn about fast-paced modern life and K-Pop culture while respecting its strong traditional history.', image: 'https://images.unsplash.com/photo-1538485399081-7c897a1b18f3?auto=format&fit=crop&w=1400&q=85', location: 'Seoul, South Korea',
+  },
+  {
+    session: 'Session 04 / Culture, food & landmarks', tag: 'Countries',
+    title: 'This beautiful island is famous for its tea plantations, spicy curries, and the ancient Sigiriya Rock. Which country is this?', options: ['India', 'Maldives', 'Sri Lanka', 'Nepal'], answer: 2,
+    fact: 'Sri Lanka is a fantastic destination for education projects. Spend weeks teaching STEAM subjects in a Global Classroom and create a huge impact.', image: 'https://images.unsplash.com/photo-1588598198321-9735b7e8f2b3?auto=format&fit=crop&w=1400&q=85', location: 'Sigiriya, Sri Lanka',
+  },
+  {
+    session: 'Session 04 / Culture, food & landmarks', tag: 'Countries',
+    title: 'This country is famous for its delicious Pho noodle soup, Banh Mi sandwiches, and beautiful limestone islands in Ha Long Bay. Which country is this?', options: ['Cambodia', 'Malaysia', 'Philippines', 'Vietnam'], answer: 3,
+    fact: "Going on exchange here is very affordable and fun. It is one of Asia's top choices to teach English, ride motorbikes, and enjoy street food.", image: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1400&q=85', location: 'Vietnam',
+  },
+  {
+    session: 'Session 04 / Culture, food & landmarks', tag: 'Countries',
+    title: 'Located in North Africa, this country is famous for the Sahara Desert, beautiful Mediterranean beaches, and a traditional dish called Couscous. Which country is this?', options: ['Egypt', 'Morocco', 'Tunisia', 'South Africa'], answer: 2,
+    fact: 'Tunisia offers a unique mix of Arab, Berber, and Mediterranean cultures. It is a great place to volunteer and experience true North African hospitality!', image: 'https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=1400&q=85', location: 'Tunisia',
+  },
+  {
+    session: 'Session 04 / Culture, food & landmarks', tag: 'Countries',
+    title: 'You can go on an amazing safari in the Maasai Mara here to see lions and elephants, and eat a traditional food called Ugali. Which country is this?', options: ['Kenya', 'Nigeria', 'Ghana', 'Brazil'], answer: 0,
+    fact: 'If you love nature and wildlife, this is the place to be. Kenya has many Global Volunteer projects focused on community development and the environment.', image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1400&q=85', location: 'Maasai Mara, Kenya',
+  },
+]
