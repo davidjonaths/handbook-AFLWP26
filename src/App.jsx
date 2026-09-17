@@ -10,6 +10,7 @@ function App() {
   const [questionIndex, setQuestionIndex] = useState(0)
   const [selected, setSelected] = useState(null)
   const [score, setScore] = useState(0)
+  const [player, setPlayer] = useState({ name: '', homegroup: '' })
 
   const question = questions[questionIndex]
   const answered = selected !== null
@@ -34,6 +35,7 @@ function App() {
     setQuestionIndex(0)
     setSelected(null)
     setScore(0)
+    setPlayer({ name: '', homegroup: '' })
     setScreen('welcome')
   }
 
@@ -42,7 +44,7 @@ function App() {
   }
 
   if (screen === 'welcome') {
-    return <Welcome onStart={() => setScreen('quiz')} />
+    return <Welcome player={player} setPlayer={setPlayer} onStart={() => setScreen('quiz')} />
   }
 
   return (
@@ -117,7 +119,9 @@ function App() {
   )
 }
 
-function Welcome({ onStart }) {
+function Welcome({ player, setPlayer, onStart }) {
+  const isReady = player.name.trim() && player.homegroup.trim()
+
   return (
     <main className="welcome-page">
       <nav className="welcome-nav"><div className="brand"><img src={logo} alt="Euphorewa logo" className="brand-logo" /><span>AIESEC <strong>in USU</strong></span></div><span className="nav-chip">AIESEC Future Leaders / 2026</span></nav>
@@ -126,13 +130,25 @@ function Welcome({ onStart }) {
           <p className="eyebrow"><span className="eyebrow-dot" /> A world of questions awaits</p>
           <h1>How much of the<br /><em>world</em> do you carry?</h1>
           <p className="hero-subtitle">A playful journey through people, places, and the Sustainable Development Goals. Get curious. Get inspired. Make your next move count.</p>
-          <button className="start-button" onClick={onStart}>Start the journey <ArrowRight size={20} /></button>
+
+          <div className="player-form">
+            <label>
+              <span>Nama</span>
+              <input type="text" value={player.name} onChange={(event) => setPlayer((current) => ({ ...current, name: event.target.value }))} placeholder="Masukkan nama kamu" />
+            </label>
+            <label>
+              <span>Homegroup</span>
+              <input type="text" value={player.homegroup} onChange={(event) => setPlayer((current) => ({ ...current, homegroup: event.target.value }))} placeholder="Contoh: A, B, C atau nomor" />
+            </label>
+          </div>
+
+          <button className="start-button" onClick={onStart} disabled={!isReady}>Start the game <ArrowRight size={20} /></button>
           <div className="hero-details"><span><strong>20</strong> questions</span><span className="detail-divider" /><span><strong>04</strong> chapters</span><span className="detail-divider" /><span><strong>∞</strong> impact</span></div>
         </div>
         <div className="hero-art animate-in-delay">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
           <div className="sun-card">
-            <span className="sun-card-top">AIESEC / 1948</span>
+            <span className="sun-card-top">This is EuphorEwA</span>
             <img src={logo} alt="Euphorewa logo" className="hero-logo" />
             <span className="sun-card-bottom">CONNECTING<br />THE WORLD</span>
           </div>
